@@ -1,6 +1,10 @@
 fancyss_hnd Changelog
 ===========================================
-2.0.6.beta
+2.0.9
+   - update	更新xray二进制到1.4.3；
+
+
+2.0.6
    - update	更新xray二进制到1.4.2（支持vmess/vless）；
    - add	                 增加xray二进制更新功能；
    - add                      添加trojan/trojan-go支持
