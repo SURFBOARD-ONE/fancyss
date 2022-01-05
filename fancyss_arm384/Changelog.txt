@@ -1,4 +1,4 @@
-fancyss_hnd Changelog
+fancyss_386_armv7  Changelog   
 ===========================================
 2.1.3
    - update	更新xray二进制到1.52；
