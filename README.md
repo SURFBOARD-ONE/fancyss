@@ -34,7 +34,7 @@ sed -i 's/\tdetect_package/\t# detect_package/g' /koolshare/scripts/ks_tar_insta
 
 **arm64**支持机型如下：
 
-* 华硕系列：[`RT-AC86U` `GT-AC2900` `GT-AC5300` `RT-AX88U``RT-AX82U` `RT-AX56U``RT-AX86U` `RT-AX68U` `GT-AX11000`](https://raw.githubusercontent.com/SURFBOARD-ONE/fancyss/master/fancyss_hnd/shadowsocks.tar.gz)
+* 华硕系列：[`RT-AC86U` `GT-AC2900` `GT-AC5300` `RT-AX88U` `RT-AX82U` `RT-AX56U` `RT-AX86U` `RT-AX68U` `GT-AX11000`](https://raw.githubusercontent.com/SURFBOARD-ONE/fancyss/master/fancyss_hnd/shadowsocks.tar.gz)
 * 网件系列：[ `RAX80` `RAX50`](https://raw.githubusercontent.com/SURFBOARD-ONE/fancyss/master/fancyss_hnd/shadowsocks.tar.gz)                     
 ---
 
