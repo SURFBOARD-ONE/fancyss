@@ -15,6 +15,10 @@ sed -i 's/\tdetect_package/\t# detect_package/g' /koolshare/scripts/ks_tar_insta
 
 ---
 
+**下载地址：** [armv7](https://raw.githubusercontent.com/SURFBOARD-ONE/fancyss/master/fancyss_arm384/shadowsocks.tar.gz) 梅林386改版       [armv8](https://raw.githubusercontent.com/SURFBOARD-ONE/fancyss/master/fancyss_hnd/shadowsocks.tar.gz) 梅林改版/华硕官改/hnd
+                     
+---
+
 ## 机型/固件支持（表格版）
 
 > 下面的表格列出了各个不同版本fancyss对固件/平台/架构等的支持情况，以及不同fancyss对一些功能/特性的支持情况，对应的文字说明请见下文。
