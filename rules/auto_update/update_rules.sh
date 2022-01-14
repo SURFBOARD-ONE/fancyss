@@ -2,7 +2,7 @@
 CurrentDate=$(date +%Y-%m-%d)
 # ======================================
 # get gfwlist for shadowsocks ipset mode
-./fwlist.py gfwlist_download.conf
+python3 fwlist.py gfwlist_download.conf
 
 grep -Ev "([0-9]{1,3}[\.]){3}[0-9]{1,3}" gfwlist_download.conf >gfwlist_download_tmp.conf
 
@@ -22,6 +22,7 @@ sed -i '/apple\.com/d' "gfwlist1.conf"
 
 md5sum1=$(md5sum gfwlist1.conf | sed 's/ /\n/g' | sed -n 1p)
 md5sum2=$(md5sum ../gfwlist.conf | sed 's/ /\n/g' | sed -n 1p)
+echo "is_changed=0" >> $GITHUB_ENV
 
 echo =================
 if [ "$md5sum1"x = "$md5sum2"x ]; then
@@ -30,17 +31,19 @@ else
 	echo update gfwlist!
 	cp -f gfwlist1.conf ../gfwlist.conf
 	sed -i "1c $(date +%Y-%m-%d) # $md5sum1 gfwlist" ../version1
+	echo "is_changed=1" >> $GITHUB_ENV
 fi
 echo =================
 # ======================================
 # get chnroute for shadowsocks chn and game mode
 
 # Deprecated in 2019-8-1
-# wget -4 -O- http://ftp.apnic.net/apnic/stats/apnic/delegated-apnic-latest > apnic.txt
+# wget -nv -4 -O- http://ftp.apnic.net/apnic/stats/apnic/delegated-apnic-latest > apnic.txt
 # cat apnic.txt| awk -F\| '/CN\|ipv4/ { printf("%s/%d\n", $4, 32-log($5)/log(2)) }' > chnroute1.txt
 
 # use ipip_country_cn ip database sync by https://github.com/firehol/blocklist-ipsets from ipip.net（source: https://cdn.ipip.net/17mon/country.zip）.
-curl https://raw.githubusercontent.com/firehol/blocklist-ipsets/master/ipip_country/ipip_country_cn.netset | sed '/^#/d' >chnroute1.txt
+#curl https://raw.githubusercontent.com/firehol/blocklist-ipsets/master/ipip_country/ipip_country_cn.netset | sed '/^#/d' >chnroute1.txt
+curl -s https://raw.githubusercontent.com/misakaio/chnroutes2/master/chnroutes.txt | sed '/^#/d' >chnroute1.txt
 
 md5sum3=$(md5sum chnroute1.txt | sed 's/ /\n/g' | sed -n 1p)
 md5sum4=$(md5sum ../chnroute.txt | sed 's/ /\n/g' | sed -n 1p)
@@ -54,14 +57,15 @@ else
 	echo update chnroute, $IPLINE subnets, $IPCOUN unique IPs !
 	cp -f chnroute1.txt ../chnroute.txt
 	sed -i "2c $(date +%Y-%m-%d) # $md5sum3 chnroute" ../version1
+	echo "is_changed=1" >> $GITHUB_ENV
 fi
 echo =================
 # ======================================
 # get cdn list for shadowsocks chn and game mode
 
-wget -4 https://raw.githubusercontent.com/felixonmars/dnsmasq-china-list/master/accelerated-domains.china.conf
-wget -4 https://raw.githubusercontent.com/felixonmars/dnsmasq-china-list/master/apple.china.conf
-wget -4 https://raw.githubusercontent.com/felixonmars/dnsmasq-china-list/master/google.china.conf
+wget -nv -4 https://raw.githubusercontent.com/felixonmars/dnsmasq-china-list/master/accelerated-domains.china.conf
+wget -nv -4 https://raw.githubusercontent.com/felixonmars/dnsmasq-china-list/master/apple.china.conf
+wget -nv -4 https://raw.githubusercontent.com/felixonmars/dnsmasq-china-list/master/google.china.conf
 
 cat accelerated-domains.china.conf apple.china.conf google.china.conf | sed '/^#/d' | sed "s/server=\/\.//g" | sed "s/server=\///g" | sed -r "s/\/\S{1,30}//g" | sed -r "s/\/\S{1,30}//g" >cdn_download.txt
 cat cdn_koolshare.txt cdn_download.txt | sort -u >cdn1.txt
@@ -76,11 +80,12 @@ else
 	echo update cdn!
 	cp -f cdn1.txt ../cdn.txt
 	sed -i "4c $(date +%Y-%m-%d) # $md5sum5 cdn" ../version1
+	echo "is_changed=1" >> $GITHUB_ENV
 fi
 echo =================
 # ======================================
 # use apnic data
-wget -4 -O- http://ftp.apnic.net/apnic/stats/apnic/delegated-apnic-latest >apnic.txt
+wget -nv -4 -O- http://ftp.apnic.net/apnic/stats/apnic/delegated-apnic-latest >apnic.txt
 cat apnic.txt | awk -F\| '/CN\|ipv4/ { printf("%s/%d\n", $4, 32-log($5)/log(2)) }' >chnroute1.txt
 
 echo -e "[Local Routing]\n## China mainland routing blocks\n## Sources: https://ftp.apnic.net/apnic/stats/apnic/delegated-apnic-latest" >Routing.txt
@@ -118,8 +123,8 @@ sed -i 's|b\(cn\)$|\.\1|' WhiteList_tmp.txt
 
 echo '[Local Hosts]' >>WhiteList.txt
 echo '## China mainland domains' >>WhiteList.txt
-echo '## Get the latest database: https://github.com/xinhugo/Free-List/blob/master/WhiteList.txt' >>WhiteList.txt
-echo '## Report an issue: https://github.com/xinhugo/Free-List/issues' >>WhiteList.txt
+echo '## Get the latest database: https://github.com/felixonmars/dnsmasq-china-list/blob/master/accelerated-domains.china.conf' >>WhiteList.txt
+echo '## Report an issue: https://github.com/felixonmars/dnsmasq-china-list/issues' >>WhiteList.txt
 echo -e "## Last update: $CurrentDate\n" >>WhiteList.txt
 cat WhiteList_tmp.txt >>WhiteList.txt
 
@@ -185,6 +190,7 @@ else
 	echo update apple china list!
 	cp -f apple_download.txt ../apple_china.txt
 	sed -i "8c $(date +%Y-%m-%d) # $md5sum13 apple_china" ../version1
+	echo "is_changed=1" >> $GITHUB_ENV
 fi
 if [ "$md5sum15"x = "$md5sum16"x ]; then
 	echo google china list same md5!
@@ -192,6 +198,7 @@ else
 	echo update goole china list!
 	cp -f google_download.txt ../google_china.txt
 	sed -i "9c $(date +%Y-%m-%d) # $md5sum15 google_china" ../version1
+	echo "is_changed=1" >> $GITHUB_ENV
 fi
 echo =================
 # ======================================

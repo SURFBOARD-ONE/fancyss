@@ -7,7 +7,7 @@
 # Ref https://code.google.com/p/autoproxy-gfwlist/wiki/Rules    
  
 import sys
-import urllib2 
+import urllib.request
 import re
 import os
 import datetime
@@ -28,28 +28,28 @@ baseurl = 'https://raw.githubusercontent.com/Loukky/gfwlist-by-loukky/master/gfw
 # baseurl = 'https://raw.githubusercontent.com/gfwlist/gfwlist/master/gfwlist.txt'
 # baseurl = 'https://autoproxy-gfwlist.googlecode.com/svn/trunk/gfwlist.txt'
 # match comments/title/whitelist/ip address
-comment_pattern = '^\!|\[|^@@|^\d+\.\d+\.\d+\.\d+'
-domain_pattern = '([\w\-\_]+\.[\w\.\-\_]+)[\/\*]*' 
+comment_pattern = r'^\!|\[|^@@|^\d+\.\d+\.\d+\.\d+'
+domain_pattern = r'([\w\-\_]+\.[\w\.\-\_]+)[\/\*]*'
 tmpfile = '/tmp/gfwlisttmp'
 # do not write to router internal flash directly
 #outfile = '/tmp/gfwlist.conf'
 #rulesfile = '/etc/dnsmasq.d/gfwlist.conf'
  
-fs =  file(outfile, 'w')
+fs =  open(outfile, 'w')
 #fs.write('# gfw list ipset rules for dnsmasq\n')
 #fs.write('# updated on ' + datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S") + '\n')
 #fs.write('#\n')
  
-print 'fetching list...'
-content = urllib2.urlopen(baseurl, timeout=15).read().decode('base64')
+print ('fetching list...')
+content = urllib.request.urlopen(baseurl, timeout=15).read()
  
 # write the decoded content to file then read line by line
-tfs = open(tmpfile, 'w')
-tfs.write(content)
+tfs = open(tmpfile, 'wb')
+tfs.write(base64.b64decode(content.decode()))
 tfs.close()
 tfs = open(tmpfile, 'r')
  
-print 'page content fetched, analysis...'
+print ('page content fetched, analysis...')
  
 # remember all blocked domains, in case of duplicate records
 domainlist = []
@@ -76,7 +76,7 @@ for line in tfs.readlines():
                         pass
 					
 tfs.close()	
-fs.close();
+fs.close()
  
 #print 'moving generated file to dnsmasg directory'
 #print outfile
@@ -85,5 +85,5 @@ fs.close();
 #print 'restart dnsmasq...'
 #print os.popen('/etc/init.d/dnsmasq restart').read()
  
-print 'saving to file: ', outfile
-print 'done!'
+print ('saving to file: '), outfile
+print ('done!')
