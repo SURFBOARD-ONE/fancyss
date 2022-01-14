@@ -15,7 +15,7 @@ sed -i 's/\tdetect_package/\t# detect_package/g' /koolshare/scripts/ks_tar_insta
 
 ---
 
-## **下载地址：** [armv7](https://raw.githubusercontent.com/SURFBOARD-ONE/fancyss/master/fancyss_arm384/shadowsocks.tar.gz) 梅林386改版       [armv8](https://raw.githubusercontent.com/SURFBOARD-ONE/fancyss/master/fancyss_hnd/shadowsocks.tar.gz) 梅林改版/华硕官改/hnd
+## [**下载地址：**] [armv7](https://raw.githubusercontent.com/SURFBOARD-ONE/fancyss/master/fancyss_arm384/shadowsocks.tar.gz) 梅林386改版       [armv8](https://raw.githubusercontent.com/SURFBOARD-ONE/fancyss/master/fancyss_hnd/shadowsocks.tar.gz) 梅林改版/华硕官改/hnd
                      
 ---
 
