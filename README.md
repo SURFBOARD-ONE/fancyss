@@ -30,11 +30,11 @@ sed -i 's/\tdetect_package/\t# detect_package/g' /koolshare/scripts/ks_tar_insta
 
 ### [arm64](https://raw.githubusercontent.com/SURFBOARD-ONE/fancyss/master/fancyss_hnd/shadowsocks.tar.gz)
 
-> **arm64**离线安装包仅支持Asuswrt/Merlin hnd platform 4.1.27内核的固件上使用！
+> **arm64**离线安装包仅能在koolshare 梅林/官改 hnd/axhnd/axhnd.675x平台机器上使用！
 
 **arm64**支持机型如下：
 
-* 华硕系列：[`RT-AC86U` `GT-AC2900` `GT-AC5300` `RT-AX88U` `RT-AX86U` `RT-AX68U` `GT-AX11000` `GT-AXE11000`](https://raw.githubusercontent.com/SURFBOARD-ONE/fancyss/master/fancyss_hnd/shadowsocks.tar.gz)
+* 华硕系列：[`RT-AC86U` `GT-AC2900` `GT-AC5300` `RT-AX88U``RT-AX82U` `RT-AX56U``RT-AX86U` `RT-AX68U` `GT-AX11000` `GT-AXE11000`](https://raw.githubusercontent.com/SURFBOARD-ONE/fancyss/master/fancyss_hnd/shadowsocks.tar.gz)
 * 网件系列：[ `RAX80` `RAX50`](https://raw.githubusercontent.com/SURFBOARD-ONE/fancyss/master/fancyss_hnd/shadowsocks.tar.gz)                     
 ---
 
