@@ -15,8 +15,27 @@ sed -i 's/\tdetect_package/\t# detect_package/g' /koolshare/scripts/ks_tar_insta
 
 ---
 
-## **下载地址：**  [armv7](https://raw.githubusercontent.com/SURFBOARD-ONE/fancyss/master/fancyss_arm384/shadowsocks.tar.gz) 梅林386改版       [armv8](https://raw.githubusercontent.com/SURFBOARD-ONE/fancyss/master/fancyss_hnd/shadowsocks.tar.gz) 梅林改版/华硕官改/hnd
-                     
+## 相关下载
+### [arm](https://raw.githubusercontent.com/SURFBOARD-ONE/fancyss/master/fancyss_arm384/shadowsocks.tar.gz)
+
+> **arm**离线安装包仅能在博通arm386平台，且linux内核为2.6.36.4的armv7架构的机器上使用！
+
+**arm**支持机型如下：
+
+* 华硕系列：[`RT-AC68U` `RT-AC66U-B1` `RT-AC1900P` `RT-AC88U` `RT-AC3100` `RT-AC3200` `RT-AC5300`](https://raw.githubusercontent.com/SURFBOARD-ONE/fancyss/master/fancyss_arm384/shadowsocks.tar.gz)
+* 斐讯系列：[`K3`](https://raw.githubusercontent.com/SURFBOARD-ONE/fancyss/master/fancyss_arm384/shadowsocks.tar.gz)
+* 网件系列：[`R6300v2` `R6900P` `R7000P` `R7000` `R8500`](https://raw.githubusercontent.com/SURFBOARD-ONE/fancyss/master/fancyss_arm384/shadowsocks.tar.gz)
+
+---
+
+### [arm64](https://raw.githubusercontent.com/SURFBOARD-ONE/fancyss/master/fancyss_hnd/shadowsocks.tar.gz)
+
+> **arm64**离线安装包仅支持Asuswrt/Merlin hnd platform 4.1.27内核的固件上使用！
+
+**arm64**支持机型如下：
+
+* 华硕系列：[`RT-AC86U` `GT-AC2900` `GT-AC5300` `RT-AX88U` `RT-AX86U` `RT-AX68U` `GT-AX11000` `GT-AXE11000`](https://raw.githubusercontent.com/SURFBOARD-ONE/fancyss/master/fancyss_hnd/shadowsocks.tar.gz)
+* 网件系列：[ `RAX80` `RAX50`](https://raw.githubusercontent.com/SURFBOARD-ONE/fancyss/master/fancyss_hnd/shadowsocks.tar.gz)                     
 ---
 
 ## 机型/固件支持（表格版）
