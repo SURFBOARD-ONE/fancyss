@@ -20,7 +20,7 @@ sed -i 's/\tdetect_package/\t# detect_package/g' /koolshare/scripts/ks_tar_insta
 
 > **arm**离线安装包仅能在博通arm386平台，且linux内核为2.6.36.4的armv7架构的机器上使用！
 
-**arm**支持机型如下：
+**fancyss_arm_386**支持机型如下：
 
 * 华硕系列：[`RT-AC68U` `RT-AC66U-B1` `RT-AC1900P` `RT-AC88U` `RT-AC3100` `RT-AC3200` `RT-AC5300`](https://raw.githubusercontent.com/SURFBOARD-ONE/fancyss/master/fancyss_arm384/shadowsocks.tar.gz)
 * 斐讯系列：[`K3`](https://raw.githubusercontent.com/SURFBOARD-ONE/fancyss/master/fancyss_arm384/shadowsocks.tar.gz)
@@ -32,7 +32,7 @@ sed -i 's/\tdetect_package/\t# detect_package/g' /koolshare/scripts/ks_tar_insta
 
 > **arm64**离线安装包仅能在koolshare 梅林/官改 hnd/axhnd/axhnd.675x平台机器上使用！
 
-**arm64**支持机型如下：
+**fancyss_arm64_hnd**支持机型如下：
 
 * 华硕系列：[`RT-AC86U` `GT-AC2900` `GT-AC5300` `RT-AX88U` `RT-AX82U` `RT-AX56U` `RT-AX86U` `RT-AX68U` `GT-AX11000`](https://raw.githubusercontent.com/SURFBOARD-ONE/fancyss/master/fancyss_hnd/shadowsocks.tar.gz)
 * 网件系列：[ `RAX80` `RAX50`](https://raw.githubusercontent.com/SURFBOARD-ONE/fancyss/master/fancyss_hnd/shadowsocks.tar.gz)                     
@@ -51,7 +51,7 @@ sed -i 's/\tdetect_package/\t# detect_package/g' /koolshare/scripts/ks_tar_insta
 |   linux内核   |                            4.1.xx                            | 4.4.0-116                                                    |                           2.6.36.4                           |                           2.6.36.4                           |                             2.6                              |                             很新                             |
 |      CPU      |                       bcm490x/bcm675x                        | ipq8074                                                      |                          bcm4708/9                           |                          bcm4708/9                           |                           bcm4706                            |                          x64架构CPU                          |
 |   维护状态    |                            维护中                            |  **停止维护**                                                      |                            维护中                            |                         **停止维护**                         |                         **停止维护**                         |                         **备份留存**                         |
-|   最新版本    |                          **2.0.7**                           | 2.0.0                                                        |                          **2.1.7**                           |                          **4.2.2**                           |                         **3.0.4？**                          |                          **2.2.2**                           |
+|   最新版本    |                          **2.0.8**                           | 2.0.0                                                        |                          **2.1.8**                           |                          **4.2.2**                           |                         **3.0.4？**                          |                          **2.2.2**                           |
 |   插件名称    |                           科学上网                           | 科学上网                                                     |                           科学上网                           |                           科学上网                           |                           科学上网                           |                            koolss                            |
 |   节点管理    |                      :heavy_check_mark:                      | :heavy_check_mark:                                           |                      :heavy_check_mark:                      |                      :heavy_check_mark:                      |                      :heavy_check_mark:                      |                      :heavy_check_mark:                      |
 |    ss支持     |                      :heavy_check_mark:                      | :heavy_check_mark:                                           |                      :heavy_check_mark:                      |                      :heavy_check_mark:                      |                      :heavy_check_mark:                      |                      :heavy_check_mark:                      |
