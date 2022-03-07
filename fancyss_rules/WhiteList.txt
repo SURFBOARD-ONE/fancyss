@@ -1192,6 +1192,7 @@
 .*\b123huodong\.com
 .*\b123lihun\.com
 .*\b123meiyan\.com
+.*\b123menpiao\.com
 .*\b123nice\.net
 .*\b123novel\.com
 .*\b123qibu\.com
@@ -7944,6 +7945,7 @@
 .*\badapay\.tech
 .*\badarrive\.com
 .*\badashuo\.com
+.*\badawod\.com
 .*\badaxin\.com
 .*\badbats\.com
 .*\badbxb\.com
@@ -11954,6 +11956,7 @@
 .*\bbjznnt\.com
 .*\bbjzph\.com
 .*\bbjzqcbook\.com
+.*\bbjzqhy\.net
 .*\bbjzqw\.com
 .*\bbjzs114\.com
 .*\bbjzwzx\.com
@@ -16742,6 +16745,7 @@
 .*\bcocostudio\.org
 .*\bcocounion\.com
 .*\bcocss\.com
+.*\bcoctotoo\.com
 .*\bcodante\.org
 .*\bcode-by\.org
 .*\bcode\.sh
@@ -18017,6 +18021,7 @@
 .*\bd5power\.com
 .*\bd5wx\.com
 .*\bd65d6\.com
+.*\bd777\.com
 .*\bd77777777\.com
 .*\bd7baike\.net
 .*\bd7ol\.com
@@ -18945,7 +18950,6 @@
 .*\bdfdjy\.net
 .*\bdfdtt\.com
 .*\bdfedu\.com
-.*\bdfgzqc\.com
 .*\bdfham\.com
 .*\bdfhon\.com
 .*\bdfhtjn\.com
@@ -24740,6 +24744,7 @@
 .*\bgiga-da\.com
 .*\bgigabyte\.com
 .*\bgigaget\.com
+.*\bgiikin\.com
 .*\bgiiso\.com
 .*\bgildata\.com
 .*\bgilieye\.com
@@ -24796,7 +24801,6 @@
 .*\bgjceshi9\.com
 .*\bgjds\.vip
 .*\bgjfax\.com
-.*\bgjgov\.com
 .*\bgjgwy\.net
 .*\bgjgwy\.org
 .*\bgjgzpw\.com
@@ -31030,7 +31034,6 @@
 .*\bimwexpo\.com
 .*\bimwork\.net
 .*\bimxh\.com
-.*\bimxingzhe\.com
 .*\bimxpan\.com
 .*\bimxyd\.com
 .*\bimycdn\.com
@@ -31870,7 +31873,6 @@
 .*\biwapan\.com
 .*\biwasai\.com
 .*\biwatch365\.com
-.*\biwatch365\.net
 .*\biwcoo\.com
 .*\biwebad\.com
 .*\biwebchoice\.com
@@ -33907,7 +33909,6 @@
 .*\bjsjs\.org
 .*\bjsjyrcb\.com
 .*\bjskaiborui\.com
-.*\bjskdjd\.com
 .*\bjskpcg\.org
 .*\bjskwt\.com
 .*\bjsldweb\.com
@@ -43353,6 +43354,7 @@
 .*\bourwebpic\.com
 .*\bourwebpic\.info
 .*\bourwebpic\.org
+.*\bourwebpicvip\.com
 .*\boushangstyle\.com
 .*\boushinet\.com
 .*\boushivoyages\.com
@@ -56646,7 +56648,6 @@
 .*\bwcyecs\.com
 .*\bwczf\.net
 .*\bwd1266\.com
-.*\bwd6667\.com
 .*\bwdace\.com
 .*\bwdashi\.com
 .*\bwdaveh5game\.com
@@ -57064,6 +57065,7 @@
 .*\bweixun\.com
 .*\bweixuncj\.com
 .*\bweixunyunduan\.net
+.*\bweixz\.com
 .*\bweixz8\.com
 .*\bweiyan\.me
 .*\bweiyangx\.com
@@ -58752,6 +58754,7 @@
 .*\bwwleww\.com
 .*\bwwmhdq\.com
 .*\bwws23\.com
+.*\bwwstat\.com
 .*\bwww-05\.ibm\.com
 .*\bwww-123490\.com
 .*\bwww-175345\.com
