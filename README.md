@@ -16,27 +16,27 @@ sed -i 's/\tdetect_package/\t# detect_package/g' /koolshare/scripts/ks_tar_insta
 ---
 
 ## 相关下载
-### [arm](https://raw.githubusercontent.com/SURFBOARD-ONE/fancyss/master/fancyss_arm384/shadowsocks.tar.gz)
+### [arm](https://github-do.panbaidu.cn//https://raw.githubusercontent.com/SURFBOARD-ONE/fancyss/master/fancyss_arm384/shadowsocks.tar.gz)
 
 > **arm**离线安装包仅能在博通arm386平台，且linux内核为2.6.36.4的armv7架构的机器上使用！
 
 **fancyss_arm_386**支持机型如下：
 
-* 华硕系列：[`RT-AC68U` `RT-AC66U-B1` `RT-AC1900P` `RT-AC88U` `RT-AC3100` `RT-AC3200` `RT-AC5300`](https://raw.githubusercontent.com/SURFBOARD-ONE/fancyss/master/fancyss_arm384/shadowsocks.tar.gz)
-* 斐讯系列：[`K3`](https://raw.githubusercontent.com/SURFBOARD-ONE/fancyss/master/fancyss_arm384/shadowsocks.tar.gz)
-* 网件系列：[`R6300v2` `R6900P` `R7000P` `R7000` `R8500`](https://raw.githubusercontent.com/SURFBOARD-ONE/fancyss/master/fancyss_arm384/shadowsocks.tar.gz)
+* 华硕系列：[`RT-AC68U` `RT-AC66U-B1` `RT-AC1900P` `RT-AC88U` `RT-AC3100` `RT-AC3200` `RT-AC5300`](https://github-do.panbaidu.cn//https://raw.githubusercontent.com/SURFBOARD-ONE/fancyss/master/fancyss_arm384/shadowsocks.tar.gz)
+* 斐讯系列：[`K3`](https://github-do.panbaidu.cn//https://raw.githubusercontent.com/SURFBOARD-ONE/fancyss/master/fancyss_arm384/shadowsocks.tar.gz)
+* 网件系列：[`R6300v2` `R6900P` `R7000P` `R7000` `R8500`](https://github-do.panbaidu.cn//https://raw.githubusercontent.com/SURFBOARD-ONE/fancyss/master/fancyss_arm384/shadowsocks.tar.gz)
 * 离线包下载请前往：[历史版本列表](https://github.com/SURFBOARD-ONE/fancyss/tree/master/fancyss_arm384/history)
 
 ---
 
-### [arm64](https://raw.githubusercontent.com/SURFBOARD-ONE/fancyss/master/fancyss_hnd/shadowsocks.tar.gz)
+### [arm64](https://github-do.panbaidu.cn//https://raw.githubusercontent.com/SURFBOARD-ONE/fancyss/master/fancyss_hnd/shadowsocks.tar.gz)
 
 > **arm64**离线安装包仅能在koolshare 梅林/官改 hnd/axhnd/axhnd.675x平台机器上使用！
 
 **fancyss_arm64_hnd**支持机型如下：
 
-* 华硕系列：[`RT-AC86U` `GT-AC2900` `GT-AC5300` `RT-AX88U` `RT-AX82U` `RT-AX56U` `RT-AX86U` `RT-AX68U` `GT-AX11000`](https://raw.githubusercontent.com/SURFBOARD-ONE/fancyss/master/fancyss_hnd/shadowsocks.tar.gz)
-* 网件系列：[ `RAX80` `RAX50`](https://raw.githubusercontent.com/SURFBOARD-ONE/fancyss/master/fancyss_hnd/shadowsocks.tar.gz)
+* 华硕系列：[`RT-AC86U` `GT-AC2900` `GT-AC5300` `RT-AX88U` `RT-AX82U` `RT-AX56U` `RT-AX86U` `RT-AX68U` `GT-AX11000`](https://github-do.panbaidu.cn//https://raw.githubusercontent.com/SURFBOARD-ONE/fancyss/master/fancyss_hnd/shadowsocks.tar.gz)
+* 网件系列：[ `RAX80` `RAX50`](https://github-do.panbaidu.cn//https://raw.githubusercontent.com/SURFBOARD-ONE/fancyss/master/fancyss_hnd/shadowsocks.tar.gz)
 * 离线包下载请前往：[历史版本列表](https://github.com/SURFBOARD-ONE/fancyss/tree/master/fancyss_hnd/history)                     
 ---
 
