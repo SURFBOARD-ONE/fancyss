@@ -16,16 +16,16 @@ sed -i 's/\tdetect_package/\t# detect_package/g' /koolshare/scripts/ks_tar_insta
 ---
 
 ## 相关下载
-### [arm](https://github-do.panbaidu.cn//https://raw.githubusercontent.com/SURFBOARD-ONE/fancyss/master/fancyss_arm384/shadowsocks.tar.gz)
+### [arm](https://github-do.panbaidu.cn//https://raw.githubusercontent.com/SURFBOARD-ONE/fancyss/master/fancyss_arm386/shadowsocks.tar.gz)
 
 > **arm**离线安装包仅能在博通arm386平台，且linux内核为2.6.36.4的armv7架构的机器上使用！
 
 **fancyss_arm_386**支持机型如下：
 
-* 华硕系列：[`RT-AC68U` `RT-AC66U-B1` `RT-AC1900P` `RT-AC88U` `RT-AC3100` `RT-AC3200` `RT-AC5300`](https://github-do.panbaidu.cn//https://raw.githubusercontent.com/SURFBOARD-ONE/fancyss/master/fancyss_arm384/shadowsocks.tar.gz)
-* 斐讯系列：[`K3`](https://github-do.panbaidu.cn//https://raw.githubusercontent.com/SURFBOARD-ONE/fancyss/master/fancyss_arm384/shadowsocks.tar.gz)
-* 网件系列：[`R6300v2` `R6900P` `R7000P` `R7000` `R8500`](https://github-do.panbaidu.cn//https://raw.githubusercontent.com/SURFBOARD-ONE/fancyss/master/fancyss_arm384/shadowsocks.tar.gz)
-* 离线包下载请前往：[历史版本列表](https://github.com/SURFBOARD-ONE/fancyss/tree/master/fancyss_arm384/history)
+* 华硕系列：[`RT-AC68U` `RT-AC66U-B1` `RT-AC1900P` `RT-AC88U` `RT-AC3100` `RT-AC3200` `RT-AC5300`](https://github-do.panbaidu.cn//https://raw.githubusercontent.com/SURFBOARD-ONE/fancyss/master/fancyss_arm386/shadowsocks.tar.gz)
+* 斐讯系列：[`K3`](https://github-do.panbaidu.cn//https://raw.githubusercontent.com/SURFBOARD-ONE/fancyss/master/fancyss_arm386/shadowsocks.tar.gz)
+* 网件系列：[`R6300v2` `R6900P` `R7000P` `R7000` `R8500`](https://github-do.panbaidu.cn//https://raw.githubusercontent.com/SURFBOARD-ONE/fancyss/master/fancyss_arm386/shadowsocks.tar.gz)
+* 离线包下载请前往：[历史版本列表](https://github.com/SURFBOARD-ONE/fancyss/tree/master/fancyss_arm386/history)
 
 ---
 
@@ -53,7 +53,7 @@ sed -i 's/\tdetect_package/\t# detect_package/g' /koolshare/scripts/ks_tar_insta
 |   linux内核   |                            4.1.xx                            | 4.4.0-116                                                    |                           2.6.36.4                           |                           2.6.36.4                           |                             2.6                              |                             很新                             |
 |      CPU      |                       bcm490x/bcm675x                        | ipq8074                                                      |                          bcm4708/9                           |                          bcm4708/9                           |                           bcm4706                            |                          x64架构CPU                          |
 |   维护状态    |                            维护中                            |  **停止维护**                                                      |                            维护中                            |                         **停止维护**                         |                         **停止维护**                         |                         **备份留存**                         |
-|   最新版本    |                          **2.1.2**                           | 2.0.0                                                        |                          **2.2.1**                           |                          **4.2.2**                           |                         **3.0.4？**                          |                          **2.2.2**                           |
+|   最新版本    |                          **2.1.3**                           | 2.0.0                                                        |                          **2.2.2**                           |                          **4.2.2**                           |                         **3.0.4？**                          |                          **2.2.2**                           |
 |   插件名称    |                           科学上网                           | 科学上网                                                     |                           科学上网                           |                           科学上网                           |                           科学上网                           |                            koolss                            |
 |   节点管理    |                      :heavy_check_mark:                      | :heavy_check_mark:                                           |                      :heavy_check_mark:                      |                      :heavy_check_mark:                      |                      :heavy_check_mark:                      |                      :heavy_check_mark:                      |
 |    ss支持     |                      :heavy_check_mark:                      | :heavy_check_mark:                                           |                      :heavy_check_mark:                      |                      :heavy_check_mark:                      |                      :heavy_check_mark:                      |                      :heavy_check_mark:                      |
