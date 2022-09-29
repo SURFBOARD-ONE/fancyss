@@ -1,7 +1,7 @@
 [Local Hosts]
 ## China mainland domains
 ## Source: https://github.com/felixonmars/dnsmasq-china-list
-## Last update: 2022-09-28
+## Last update: 2022-09-29
 
 
 Server=/0-100.com/
@@ -3805,6 +3805,7 @@ Server=/51chuguo.org/
 Server=/51chuli.com/
 Server=/51cir.com/
 Server=/51cjyy.com/
+Server=/51cocoa.com/
 Server=/51code.com/
 Server=/51cok.com/
 Server=/51comp.com/
@@ -49813,6 +49814,7 @@ Server=/swiftmi.com/
 Server=/swiftstar.net/
 Server=/swijoy.com/
 Server=/switchvip.com/
+Server=/switchxiazai.com/
 Server=/swjoy.com/
 Server=/swkong.com/
 Server=/swliuxue.com/
@@ -53677,6 +53679,7 @@ Server=/vckai.com/
 Server=/vckbase.com/
 Server=/vcloudgtm.com/
 Server=/vclusters.com/
+Server=/vcnews.com/
 Server=/vcode.cc/
 Server=/vcomic.com/
 Server=/vcomputes.com/
@@ -54996,6 +54999,7 @@ Server=/weijinsuo.com/
 Server=/weijiu.org/
 Server=/weijiuxin.com/
 Server=/weijj.com/
+Server=/weijq.com/
 Server=/weiju.net/
 Server=/weijuju.com/
 Server=/weikaowu.com/
@@ -65260,7 +65264,6 @@ Server=/ssl-google-analytics.l.google.com/
 Server=/ssl.gstatic.com/
 Server=/tools.google.com/
 Server=/tools.l.google.com/
-Server=/translate.googleapis.com/
 Server=/translation.googleapis.com/
 Server=/update.googleapis.com/
 Server=/www-google-analytics.l.google.com/

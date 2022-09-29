@@ -2,7 +2,7 @@
 ## China mainland domains
 ## Get the latest database: https://github.com/felixonmars/dnsmasq-china-list/blob/master/accelerated-domains.china.conf
 ## Report an issue: https://github.com/felixonmars/dnsmasq-china-list/issues
-## Last update: 2022-09-28
+## Last update: 2022-09-29
 
 .*\b0-100\.com
 .*\b0-6\.com
@@ -3805,6 +3805,7 @@
 .*\b51chuli\.com
 .*\b51cir\.com
 .*\b51cjyy\.com
+.*\b51cocoa\.com
 .*\b51code\.com
 .*\b51cok\.com
 .*\b51comp\.com
@@ -49813,6 +49814,7 @@
 .*\bswiftstar\.net
 .*\bswijoy\.com
 .*\bswitchvip\.com
+.*\bswitchxiazai\.com
 .*\bswjoy\.com
 .*\bswkong\.com
 .*\bswliuxue\.com
@@ -53677,6 +53679,7 @@
 .*\bvckbase\.com
 .*\bvcloudgtm\.com
 .*\bvclusters\.com
+.*\bvcnews\.com
 .*\bvcode\.cc
 .*\bvcomic\.com
 .*\bvcomputes\.com
@@ -54996,6 +54999,7 @@
 .*\bweijiu\.org
 .*\bweijiuxin\.com
 .*\bweijj\.com
+.*\bweijq\.com
 .*\bweiju\.net
 .*\bweijuju\.com
 .*\bweikaowu\.com
