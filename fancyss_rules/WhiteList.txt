@@ -2,7 +2,7 @@
 ## China mainland domains
 ## Get the latest database: https://github.com/felixonmars/dnsmasq-china-list/blob/master/accelerated-domains.china.conf
 ## Report an issue: https://github.com/felixonmars/dnsmasq-china-list/issues
-## Last update: 2023-01-09
+## Last update: 2023-01-10
 
 .*\b0-100\.com
 .*\b0-6\.com
@@ -822,7 +822,6 @@
 .*\b108tian\.com
 .*\b109\.com
 .*\b10909\.com
-.*\b1090ys\.com
 .*\b109876543210\.com
 .*\b10bests\.com
 .*\b10besty\.com
@@ -2671,7 +2670,6 @@
 .*\b33map\.com
 .*\b33map\.net
 .*\b33oncall\.com
-.*\b33sp\.com
 .*\b33trip\.com
 .*\b33xs\.com
 .*\b33yq\.com
@@ -4142,7 +4140,6 @@
 .*\b51yueqian\.com
 .*\b51yund\.com
 .*\b51yundong\.me
-.*\b51yunli\.com
 .*\b51yuu\.com
 .*\b51ywx\.com
 .*\b51zan\.com
@@ -4536,7 +4533,6 @@
 .*\b555yst\.com
 .*\b555zw\.com
 .*\b5566\.net
-.*\b5567\.cc
 .*\b5567\.me
 .*\b556z\.com
 .*\b557\.net
@@ -7240,7 +7236,6 @@
 .*\bacg588\.com
 .*\bacg6\.com
 .*\bacgaa\.xyz
-.*\bacgcp\.com
 .*\bacgdb\.com
 .*\bacgdmzy\.com
 .*\bacgdoge\.net
@@ -9822,7 +9817,6 @@
 .*\bbaodaren\.net
 .*\bbaodigs\.com
 .*\bbaodingmeishi\.com
-.*\bbaodingtrade\.com
 .*\bbaodu\.com
 .*\bbaofeng\.com
 .*\bbaofeng\.net
@@ -19918,7 +19912,6 @@
 .*\becyti\.com
 .*\bed2000\.com
 .*\bed2kers\.com
-.*\bed2kfile\.com
 .*\bed2kk\.com
 .*\beda-china\.com
 .*\beda1024\.com
@@ -25920,7 +25913,6 @@
 .*\bheclouds\.com
 .*\bhecoe\.com
 .*\bhecpharm\.com
-.*\bhedaotang\.net
 .*\bhedgehogrock\.com
 .*\bheduibu\.com
 .*\bheeeeeh\.com
@@ -33906,7 +33898,6 @@
 .*\bkq88\.com
 .*\bkqgeo\.com
 .*\bkqidong\.com
-.*\bkqiwen\.com
 .*\bkqj123\.com
 .*\bkqmmm\.com
 .*\bkqqy\.com
@@ -40478,7 +40469,6 @@
 .*\bnopis\.org
 .*\bnoposion\.com
 .*\bnopph\.website
-.*\bnoq\.cc
 .*\bnor-land\.com
 .*\bnordfxs\.com
 .*\bnordicways\.com
@@ -42354,7 +42344,6 @@
 .*\bpkpk\.com
 .*\bpkpky\.com
 .*\bpkpmsoft\.com
-.*\bpkq2016\.com
 .*\bpksfc\.com
 .*\bpksky\.com
 .*\bpku-hit\.com
@@ -42564,7 +42553,6 @@
 .*\bposeidong\.com
 .*\bposfree\.com
 .*\bposge\.com
-.*\bposingflowers\.com
 .*\bpositivisten\.com
 .*\bposn\.net
 .*\bpost183\.net
@@ -47421,7 +47409,6 @@
 .*\bshuimiao\.net
 .*\bshuimujiaju\.com
 .*\bshuimushequ\.com
-.*\bshuinankeji\.com
 .*\bshuini\.biz
 .*\bshuipingzuo\.com
 .*\bshuiqian\.cc
@@ -53888,7 +53875,6 @@
 .*\bw7000\.com
 .*\bw8xitong\.com
 .*\bw918\.com
-.*\bwa-lang\.org
 .*\bwa5\.com
 .*\bwa5as4\.com
 .*\bwaaaat\.com
@@ -56791,7 +56777,6 @@
 .*\bxcsfcjyw\.com
 .*\bxcshaifen\.com
 .*\bxcstuido\.com
-.*\bxcsyxx\.net
 .*\bxctmr\.com
 .*\bxcurrency\.com
 .*\bxcvgame\.cc
@@ -59044,7 +59029,6 @@
 .*\bxz577\.com
 .*\bxz6\.com
 .*\bxz6699\.com
-.*\bxz6d\.com
 .*\bxz7\.com
 .*\bxzapi56\.com
 .*\bxzbu\.com
@@ -62358,7 +62342,6 @@
 .*\bzgdwzp\.com
 .*\bzgdxhbkf\.com
 .*\bzgdydyxh\.com
-.*\bzgeci\.com
 .*\bzgfwgj\.com
 .*\bzgfxnews\.com
 .*\bzgfznews\.com
