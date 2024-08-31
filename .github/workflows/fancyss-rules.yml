@@ -1,6 +1,6 @@
-name: Update Fancyss Rules
+##name: Update Fancyss Rules
 
-on:
+##on:
   push:
     branches: [master]
     paths:
@@ -15,7 +15,7 @@ on:
   schedule:
     - cron: '45 19 * * *'
 
-jobs:
+##jobs:
   build:
     runs-on: ubuntu-20.04
 
